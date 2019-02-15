@@ -1,0 +1,4 @@
+1. Place the source code and the images used in the same folder. 
+2. Then, double click on the html file. This will open the webpage using the default browser. 
+3.Finally, enter a positive integer n in the text box provided then hit the compute button. 
+4.It takes a very long time to load the webpage if n is large which eventually leads the webpage to be unresponsive. Thus, keep n < 40.

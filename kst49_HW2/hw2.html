@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Weather Forcast</title>
+	<!-- load jquery, jquery mobile and jquery mobile style sheet -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script> 
+	<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"></link>
+	<meta charset="UTF-8"></meta>
+	
+	<!-- information about the initial window size and content scaling -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<script type="text/javascript" src="hw2.js"></script>
+	<link rel="stylesheet" type="text/css" href="hw2.css"> </link>
+	
+</head>
+<body>
+
+	<!-- makes the h1 element a fixed header and resizes the input and button elements-->
+	<div data-role = "header" data-position ="fixed" data-fullscreen = "true">
+		<h1 >Weather Forcast</h1>
+	
+	
+		<hr>
+		<form>
+			
+			<!-- my client id and password are used as the default values of the inputs -->
+			User ID:  <input type="text" id="clientId" value="bxAlZDwEce3jadzCIqb7M"><br>
+			Password: <input type="password" id="password" value = "vAcvPsNIOqe6b81M8GrM1d7ToHGkBdQzTqfpkXiO"><br>
+			
+			<!-- when clicked it calls the display() function -->
+			<button onclick="display()">Display</button><br>
+		</form>
+		
+		<!-- an empty div to display the table -->
+		<div id="display">
+			
+		</div>
+	</div>
+	
+	<!-- makes the h1 element a fixed footer -->
+	<div data-role="footer" data-position="fixed" data-fullscreen = "true">
+		<h1>CS275</h1>
+	</div>
+	
+	
+</body>
+</html> 

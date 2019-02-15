@@ -1,0 +1,67 @@
+
+/*The Style sheet that is used by the html file. 
+It uses tag names, ids and classes to as selectors.*/
+body {
+	background-image: url("fib4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+		 
+h1{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 40px;
+	color: #4d4d4d;
+}	
+
+td {
+	vertical-align:top; 
+}
+
+.tab{
+	margin-left: 40px;
+}
+	
+.important{
+	font-weight: 900;
+	font-size: 1.5em;
+	/*color:#86C3F2;*/
+	color:#1a8cff;
+}
+
+ 
+			
+#t, #t td {
+	border: 1px solid black;
+	width: 200px;
+	height: 30px;
+}
+
+#t thead {
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+#err{
+	position: absolute;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #D8000C;
+	background-color: #FFD2D2; 
+	width: 200px;
+	text-align: center;
+	padding-top: 20px;
+	left: 0%;
+	padding-bottom: 20px;
+}
+
+#leo{
+	width: 15%;
+	float: right;
+	margin-top: 10px;
+	background-color: white;
+}
+
+#leo img{
+	width: 100%;
+}

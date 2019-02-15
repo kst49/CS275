@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci number</title>
+
+	<!-- The next two lines import the css and javascript files-->
+	<link rel="stylesheet" href="kst49_hw1.css"> 
+	<script src="kst49_hw1.js"></script>
+</head>
+
+<body>
+
+	<h1>Fibonacci Numbers</h1>
+	
+	<!-- adds a horizontal line here -->
+	<hr>
+
+	<!-- Places the image of fibonacci and the lable of the image in a div. -->
+	<div id="leo">
+		<img src="fibonacci.png">
+		<p>Leonardo Fibonacci</p>
+	</div>
+
+	<!-- The paragraph is placed in a 1 X 1 table -->
+	<table>
+		<tr>
+			<td>
+	 			<p> <span class= "important">Fibonacci numbers</span>, commonly denoted F<sub>n</sub> is one of the most famous formulas in mathematics. Each number in the sequence is the sum of the two numbers that precede it, starting from 0 and 1. The sequence goes like this: 0, 1, 1, 2, 3, 5, 8, 13, and so on.That is <br> <br><span class="tab">F<sub>0</sub> = 0, F<sub>1</sub>= 1,</span> and F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub></span>, for n>1.</p>
+	 		</td>			
+		</tr>		
+	</table>
+	
+    <!--  adds a new line here-->
+	<br>
+	
+	<p style="color: #00394d ">Enter a non-negative integer to get table of the Fibonacci sequence up to and included the integer entered. <br> <b>**Please keep n < 40 so that webpage won't crush**<b></p>
+
+	<!-- the input element and the button are placed in a div  -->
+	<div>		
+		<input type="text" id="n" style="border: 2px solid grey"><br>
+		<button id="submit" onclick="display()" style="border: 2px solid grey">Compute!</button><br>
+	</div>	
+	<br>
+
+	<!-- The table and the error messages displayed in this div. -->
+	<div id="result"> </div>
+
+
+</body>
+
+</html>
